@@ -1,0 +1,26 @@
+{
+  "name": "env-guardian-cli",
+  "version": "1.0.0",
+  "description": "Zero-dependency pre-commit secret leak shield, .env auditor, and AES-256 encrypted environment synchronizer.",
+  "main": "src/guardian.js",
+  "type": "module",
+  "bin": {
+    "env-guardian": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node src/guardian.js",
+    "test": "node --test test/guardian.test.js"
+  },
+  "keywords": [
+    "security",
+    "env",
+    "secrets",
+    "pre-commit",
+    "git-hook",
+    "aes-256",
+    "developer-tools",
+    "dotenv"
+  ],
+  "author": "Shokun123",
+  "license": "MIT"
+}
